@@ -60,6 +60,11 @@
             <artifactId>webdrivermanager</artifactId>
             <version>5.0.3</version>
         </dependency>
+        <dependency>
+            <groupId>org.mortbay.jetty</groupId>
+            <artifactId>jsp-2.1-glassfish</artifactId>
+            <version>9.1.1.B51.p0</version>
+        </dependency>
 
     </dependencies>
 
