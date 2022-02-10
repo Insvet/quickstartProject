@@ -1,4 +1,7 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.qameta.allure.Description;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import lesson6.MainPage;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -22,6 +25,7 @@ public class WikiPageObjectTest {
 
     }
     @Test
+    @Description("Запуск теста")
     void WikiTest(){
         new MainPage(driver)
                 .clickSelectedArticles()
